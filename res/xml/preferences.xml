@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<PreferenceCategory android:title="@string/sajdah_detection">
+    <CheckBoxPreference android:title="@string/vibrate_sajdah" android:key="PREF_VIB_SAJDAH" android:defaultValue="true" android:summary="@string/vibrate_sajdah_summary"/>
+    <CheckBoxPreference android:title="@string/brightness_sajdah" android:summary="@string/brightness_sajdah_summary" android:key="PREF_BRIGHTNESS_SAJDAH" android:defaultValue="true"/>
+</PreferenceCategory>
+
+<PreferenceCategory android:title="@string/misc_pref">
+    <CheckBoxPreference android:title="@string/use_full_screen" android:key="PREF_USE_FULL_SCREEN" android:defaultValue="true" android:summary="@string/use_full_screen_summary"/>
+</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.namaz.namazguide.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/counter_start_value"
+        android:textSize="@dimen/counter_size"
+        android:clickable="true"
+        android:textColor="@color/TextViewCounter" />
+        
+     <Button
+         android:id="@+id/buttonWatchTutorial"
+         style="@style/AppButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:paddingLeft="50dp"
+         android:paddingRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_gravity="center_horizontal|bottom"
+         android:text="@string/how_to_use"
+         android:visibility="gone"
+         android:onClick="howToUseButtonClick"
+          />
+    
+
+</LinearLayout>
